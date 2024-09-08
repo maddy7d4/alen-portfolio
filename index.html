@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="resources/css/style.css?version=20"/>
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css"/>
-    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons-2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/css/ionicons.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="icon" href="resources/css/cinema_reel_Z9J_icon.ico" >
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,30 +13,30 @@
 <body>
     
 
-    <header>
+    <header >
      
-        <div class="hero_text">
+        <div class="hero_text ">
         <h1 id="header">Hi, I'm Alen</h1>
-            <h3 id="desc">I turn your   <i class="ion-ios-lightbulb-outline"> </i>   Into a Professional Looking     <i class="ion-ios-videocam-outline"></i> </h3>
+            <h3 id="desc">I turn your Clip   Into a Professional Looking Video </h3>
                <nav id="headnav">
-        <a id="bout" href="#bout">About</a>
+            <!-- <a id="bout" href="#about">About</a>
             <a id="hire" href="#hirelink">Contact Me</a>
-            <a id="work" href="#portfolio" >My Work</a>
+            <a id="work" href="#portfolio" >My Work</a> -->
         </nav>
         </div>
         <div class="background">
         </div>
     
     </header>
-    <section class= "section"> 
+    <section class= "section " id="about"> 
         
-        <div class="about"><h1> Hi </h1>
+        <div class="about scale-section"><h1> Hi </h1>
         <h3 class="me">I am a video editor/animator based in TamilNadu, India. I turn ideas and raw footage into professional videos perfect for both businesses and individuals. I have been editing video for almost 2 years now, and I love being able to tell a story or share an experience through moving pictures.</h3></div>
         <div class="skills">
         <h1>What I can Do</h1>
              <a id="bout"></a>
 
-            <div class="produce">
+            <div class="produce fade-in-section">
                 <div class="boardDiv">
                     <img class="board"  src="resources/css/image/clapperboard.png"> </div>
                 <div class="t1" >
@@ -46,37 +47,45 @@
             </div>
             
                 
-           <div class="tech">
+           <div class="tech fade-in-section">
             
                <div class="t2">
              <h2>Using the Latest Technologies</h2>
         <h3>I mainly edit using the Adobe suite, mainly premiere pro and after effects. But I'm flexible and can use any software my client prefers.</h3></div>
                 <div class="adobeDiv" >
-                  <img class="adobe" src="resources/css/image/after-effects.png" >
+                  <img class="adobe" src="resources/css/image/adobe-illustrator.png" >
                 <img class="adobe" src="resources/css/image/premiere.png">
                     </div>
         </div>
               <a name="portfolio"></a>
-                <div id="work" class="workPage">
+                <div id="work" class="workPage animate">
                   
-            <h1 class="port"><strong>PORTFOLIO</strong></h1>
+            <h1 class="port scale-section"><strong>PORTFOLIO</strong></h1>
         
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KyAlEI9JX9E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="560" height="315" class="scale-section" src="https://www.youtube.com/embed/yuGy42G7wV8?si=B52cYix-tyDcK5O5"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="560" height="315" class="scale-section" src="https://www.youtube.com/embed/yuGy42G7wV8?si=B52cYix-tyDcK5O5"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NAaTaWl89GI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/NAaTaWl89GI?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
                     
 
             </div>
             
         </div>
             
-            <div class="choose">
-            <h1><strong>Why I'm A Perfect Fit?</strong></h1>
+            <div class="choose  fade-in-section">
+            <h1 class="animate"><strong>Why I'm A Perfect Fit?</strong></h1>
                
                 <div class="ul">
             <ul class="list">
-                <li> <i class="ion-ios-videocam-outline"></i> You choose the deadline! </li>
-                <li><i class="ion-ios-videocam-outline"></i>I respond to messages and emails quickly</li>   
+                <li>  You choose the deadline! </li>
+                <li> I respond to messages and emails quickly</li>   
                 </ul>
                 </div>
             </div>
@@ -84,10 +93,10 @@
             </div>
         </div>
     </section>
-          <footer> 
+          <footer   > 
                 <a id="hirelink"></a> 
-               <div><h1>Give Me a Call: +91 xxxxxxxxxx </h1>
-              <h1>Email Me: xxxxxxx</h1>
+               <div><h1>Give Me a Call: +91 95855 08358 </h1>
+              <h1>Email Me: alend2036@gmail.com</h1>
               <h1>Address: Tirunelveli, TamilNadu</h1>
               </div>
             <h1 id="copy"><span style="color: white;">Made with love by </span> <span style="color: red;">Heisenberg</span> 👨🏽‍💻 </h1>
@@ -95,6 +104,8 @@
             
     
 
-    <script src="resources/js/script.js?version=116"> </script>
+    <script src="resources/js/script.js?version=116"> 
+
+    </script>
     </body>
 </html>
