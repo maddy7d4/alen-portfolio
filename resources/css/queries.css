@@ -1,0 +1,398 @@
+@media only screen and (max-width:572px){
+    
+       
+    body{font-size:16px};
+    
+    
+.hero_text{
+     position: absolute;
+    margin-top:40%;
+    font-size:1.5em;
+  left: 0;
+  right: 0;
+  z-index: 1;   
+}
+
+
+.about{
+    
+    text-align:center;
+   color:#AF6305;
+    width:90%;
+    margin-left:auto;
+    margin-right: auto;  
+}
+    .produce, .tech{
+
+    margin-top:5%;
+    width:60%;
+    margin-left:auto;
+    margin-right: auto;
+display: block;
+    overflow: hidden;
+}
+
+.board{
+width:100px;
+    height:100px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    
+}
+.boardDiv{
+    width: 100%;
+    display: block;
+}
+
+.t1{ 
+
+    margin-bottom: auto;
+    width:100%;
+ overflow: hidden;
+}
+.t1 h2, h3{
+    margin-top:0;
+    
+}
+.adobe{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:60px;
+    height:60px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.t2{
+
+    margin-bottom: auto;
+    width: 100%;
+    display:block;
+    overflow: hidden;
+}
+
+.t2 h2, h3{
+    margin-top:0;
+}
+
+.adobeDiv{
+    display: block;
+    width:100%;
+    
+}
+    
+    .ul{
+        font-size:12px;
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+    .choose{
+
+        
+        width: 100%;
+        
+    }
+    
+    footer{
+    text-align: center;
+    margin-top: 7%;
+position: absolute ;
+    width: 100%;
+    height:15vh;
+    background-color: rgb(36, 34, 33);
+    margin-bottom:0px;
+}
+
+footer h1{
+    color:#afadaa;
+    font-size: 11px;
+ display: inline;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+footer div{
+  
+
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div {
+    margin-bottom: 2rem;
+}
+    
+
+}
+
+
+
+@media only screen and (max-width:767px){
+    
+.background{
+    
+background-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.2)), to(#000)), url(movie-918655_1920.jpg);
+    
+background-image:linear-gradient(rgba(0,0,0,0.2), #000), url(movie-918655_1920.jpg);
+background-size: cover;
+height:80vh;
+     
+  left: 0;
+  right: 0;
+  z-index: 1;
+    }
+    
+    
+header{
+margin:0;
+    text-align:center;
+color:whitesmoke;
+height: 80vh;
+}
+
+.hero_text{
+     position: absolute;
+    margin-top:20%;
+    font-size:1.5em;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+}
+    
+    .about{
+    
+    text-align:center;
+   color:#AF6305;
+    width:70%;
+    margin-left:auto;
+    margin-right: auto;  
+}
+    
+    
+    .produce, .tech{
+
+    margin-top:5%;
+    width:60%;
+    margin-left:auto;
+    margin-right: auto;
+display: block;
+    overflow: hidden;
+}
+
+.board{
+width:100px;
+    height:100px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    
+}
+.boardDiv{
+    width: 100%;
+    display: block;
+}
+
+.t1{ 
+
+    margin-bottom: auto;
+    width:100%;
+ overflow: hidden;
+}
+.t1 h2, h3{
+    margin-top:0;
+    
+}
+.adobe{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:100px;
+    height:100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.t2{
+
+    margin-bottom: auto;
+    width: 100%;
+    display:block;
+    overflow: hidden;
+}
+
+.t2 h2, h3{
+    margin-top:0;
+}
+
+.adobeDiv{
+    display: block;
+    width:100%;
+    
+}
+    .ul{
+    width:70%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+    
+    .choose{
+        width:100%;
+    }
+    
+    iframe{
+        width:400px;
+        height:200px;
+    }
+
+footer div {
+    margin-bottom: 2rem;
+}
+    
+}
+
+@media only screen and (max-width:400px){
+    
+       
+    body{font-size:16px};
+    
+    
+.hero_text{
+     position: absolute;
+    margin-top:40%;
+    font-size:1em;
+  left: 0;
+  right: 0;
+  z-index: 1;   
+}
+
+nav a{
+
+    font-size:16px;
+}
+
+
+.about{
+    
+    text-align:center;
+   color:#AF6305;
+    width:90%;
+    margin-left:auto;
+    margin-right: auto;  
+}
+    .produce, .tech{
+
+    margin-top:5%;
+    width:60%;
+    margin-left:auto;
+    margin-right: auto;
+display: block;
+    overflow: hidden;
+}
+
+.board{
+width:100px;
+    height:100px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    
+}
+.boardDiv{
+    width: 100%;
+    display: block;
+}
+
+.t1{ 
+
+    margin-bottom: auto;
+    width:100%;
+ overflow: hidden;
+}
+.t1 h2, h3{
+    margin-top:0;
+    
+}
+.adobe{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:60px;
+    height:60px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.t2{
+
+    margin-bottom: auto;
+    width: 100%;
+    display:block;
+    overflow: hidden;
+}
+
+.t2 h2, h3{
+    margin-top:0;
+}
+
+.adobeDiv{
+    display: block;
+    width:100%;
+    
+}
+    
+    .ul{
+        font-size:12px;
+    width:100%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+    .choose{
+
+        
+        width: 100%;
+        
+    }
+    
+    footer{
+    text-align: center;
+    margin-top: 7%;
+position: absolute ;
+    width: 100%;
+    height:15vh;
+    background-color: rgb(36, 34, 33);
+    margin-bottom:0px;
+}
+
+footer h1{
+    color:#afadaa;
+    font-size: 11px;
+ display: inline;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+footer div{
+  
+
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+   iframe{
+        width:300px;
+        height:150px;
+    }  
+
+footer div {
+    margin-bottom: 2rem;
+}
+
+}
